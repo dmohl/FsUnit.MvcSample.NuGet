@@ -2,9 +2,9 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>FsUnit.MvcSample</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <dependencies>
-      <dependency id="NUnit" version="[2.5.7.10213, 2.5.10.0)" />
+	  <dependency id="FsUnit" version="0.9.0" />
     </dependencies>
     <authors>Daniel Mohl</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,7 +14,6 @@
   </metadata>
   <files>
 	  <file src="Content\*.pp" target="Content" />
-	  <file src="Lib\*.dll" target="Lib" />
-	  <file src="Tools\*.ps1" target="Tools"/>
+	  <file src="Tools\*.*" target="tools" />
   </files>
 </package>
